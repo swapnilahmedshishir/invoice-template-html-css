@@ -101,76 +101,87 @@ body {
   color: var(--primary);
   font-size: 20px;
 }
-.main_table .table_header{
-	background:black;
-   background: linear-gradient(to bottom right, #83ecd0, #8193e4b7, #de21da);
-
-    
+.main_table .table_header {
+  background: black;
+  background: linear-gradient(to bottom right, #83ecd0, #8193e4b7, #de21da);
 }
 
-.main_table .table_header .row{
-	color: black;
-	font-size: 18px;
-	border-bottom: 0px;	
-    font-weight: 600;
+.main_table .table_header .row {
+  color: black;
+  font-size: 18px;
+  border-bottom: 0px;
+  font-weight: 600;
 }
-.main_table .row{
-	display: flex;
-	border-bottom: 2px solid #ed7979;
+.main_table .row {
+  display: flex;
+  border-bottom: 2px solid #ed7979;
 }
-.main_table .row .col{
-	padding: 10px;
+.main_table .row .col {
+  padding: 10px;
 }
-.main_table .row .col_no{width: 5%;}
- .main_table .row .col_des{width: 45%;}
-.main_table .row .col_price{width: 20%; text-align: center;}
-.main_table .row .col_qty{width: 10%; text-align: center;}
-.main_table .row .col_total{width: 20%; text-align: right;}
-.body .paymethod_grandtotal_wrap{
-	display: flex;
-	justify-content: space-between;
-	padding: 5px 0 30px;
-	align-items:flex-end;
+.main_table .row .col_no {
+  width: 5%;
 }
-.paymethod_grandtotal_wrap .paymethod_sec{
-	padding-left: 30px;
+.main_table .row .col_des {
+  width: 45%;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec{
-	width: 38%;
+.main_table .row .col_price {
+  width: 20%;
+  text-align: center;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p{
-	display: flex;
-	width: 100%;
-	padding-bottom: 7px;
+.main_table .row .col_qty {
+  width: 10%;
+  text-align: center;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p span{
-	padding: 0 30px;
+.main_table .row .col_total {
+  width: 20%;
+  text-align: right;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p span strong{
-	margin-left: 11px;
+.body .paymethod_grandtotal_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 30px;
+  align-items: flex-end;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p span:first-child{
-	width: 60%;
+.paymethod_grandtotal_wrap .paymethod_sec {
+  padding-left: 30px;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p span:last-child{
-	width: 40%;
-	text-align: right;
+.paymethod_grandtotal_wrap .grandtotal_sec {
+  width: 38%;
 }
-.paymethod_grandtotal_wrap .grandtotal_sec p:last-child span{
-    background-color:#1b775f;
-	padding: 10px;
-	color: #fff;
+.paymethod_grandtotal_wrap .grandtotal_sec p {
+  display: flex;
+  width: 100%;
+  padding-bottom: 7px;
 }
-.footer{
-	padding: 30px;
+.paymethod_grandtotal_wrap .grandtotal_sec p span {
+  padding: 0 30px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span strong {
+  margin-left: 11px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span:first-child {
+  width: 60%;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span:last-child {
+  width: 40%;
+  text-align: right;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p:last-child span {
+  background-color: #1b775f;
+  padding: 10px;
+  color: #fff;
+}
+.footer {
+  padding: 30px;
 }
 
-.footer > p a{
-	color: var(--primary);
-	text-decoration: underline;
-	font-size: 18px;
+.footer > p a {
+  color: var(--primary);
+  text-decoration: underline;
+  font-size: 18px;
 }
-.footer .terms .tc{
-    padding-top: 10px;
-	font-size: 16px;
+.footer .terms .tc {
+  padding-top: 10px;
+  font-size: 16px;
 }
