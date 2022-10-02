@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primary: #f4f5f6e7;
+  --secondary: hwb(210 19% 39%);
+  --white: #6e4322;
+}
+
+body {
+  background-color: #000;
+  background: linear-gradient(to bottom right, #1b775f, #1f3283, #811880);
+  padding: 50px;
+  color: #efe5ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.bold {
+  font-weight: 900;
+}
+.invoice_text {
+  font-size: 20px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.invoice {
+  background: var(--white);
+  padding: 25px;
+  border-radius: 6px;
+}
+.invoice_wrapper {
+  border: 3px solid #fcfafa;
+  width: 740px;
+  max-width: 100%;
+}
+
+.invoice_wrapper .header .logo_invoice_wrap,
+.invoice_wrapper .header .bill_total_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.logo_sec {
+  display: flex;
+  align-items: center;
+}
+
+.title_wrap {
+  margin-left: 7px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.sub_title {
+  font-size: 12px;
+}
+
+.invoice_sec,
+.total_wrap {
+  text-align: right;
+}
+.invoice_sec .invoice {
+  font-size: 28px;
+  color: var(--primary);
+}
+
+.invoice_sec .invoice_no,
+.date {
+  display: flex;
+  width: 100%;
+}
+.invoice_sec .invoice_no span:first-child,
+.invoice_sec .date span:first-child {
+  width: 70px;
+  text-align: left;
+}
+
+.invoice_sec .invoice_no span:last-child,
+.invoice_sec .date span:last-child {
+  width: calc(100% - 70px);
+}
+
+.price,
+.name {
+  color: var(--primary);
+  font-size: 20px;
+}
+.main_table .table_header{
+	background:black;
+   background: linear-gradient(to bottom right, #83ecd0, #8193e4b7, #de21da);
+
+    
+}
+
+.main_table .table_header .row{
+	color: black;
+	font-size: 18px;
+	border-bottom: 0px;	
+    font-weight: 600;
+}
+.main_table .row{
+	display: flex;
+	border-bottom: 2px solid #ed7979;
+}
+.main_table .row .col{
+	padding: 10px;
+}
+.main_table .row .col_no{width: 5%;}
+ .main_table .row .col_des{width: 45%;}
+.main_table .row .col_price{width: 20%; text-align: center;}
+.main_table .row .col_qty{width: 10%; text-align: center;}
+.main_table .row .col_total{width: 20%; text-align: right;}
+.body .paymethod_grandtotal_wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0 30px;
+	align-items:flex-end;
+}
+.paymethod_grandtotal_wrap .paymethod_sec{
+	padding-left: 30px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec{
+	width: 38%;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p{
+	display: flex;
+	width: 100%;
+	padding-bottom: 7px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span{
+	padding: 0 30px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span strong{
+	margin-left: 11px;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span:first-child{
+	width: 60%;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p span:last-child{
+	width: 40%;
+	text-align: right;
+}
+.paymethod_grandtotal_wrap .grandtotal_sec p:last-child span{
+    background-color:#1b775f;
+	padding: 10px;
+	color: #fff;
+}
+.footer{
+	padding: 30px;
+}
+
+.footer > p a{
+	color: var(--primary);
+	text-decoration: underline;
+	font-size: 18px;
+}
+.footer .terms .tc{
+    padding-top: 10px;
+	font-size: 16px;
+}
